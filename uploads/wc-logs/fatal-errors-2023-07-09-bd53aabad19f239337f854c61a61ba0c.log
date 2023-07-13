@@ -1,0 +1,8 @@
+2023-07-09T09:06:39+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class WP_Freeio_Service does not have a method "send_employer_expiring_notice" in /var/www/wordpress/wp-includes/class-wp-hook.php:308
+Stack trace:
+#0 /var/www/wordpress/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters(NULL, Array)
+#1 /var/www/wordpress/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#2 /var/www/wordpress/wp-cron.php(188): do_action_ref_array('wp_freeio_email...', Array)
+#3 {main}
+  thrown in /var/www/wordpress/wp-includes/class-wp-hook.php on line 308
+

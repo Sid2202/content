@@ -1,0 +1,1 @@
+{"":"m1","sodo1.azurewebsites.net":"m1"}
